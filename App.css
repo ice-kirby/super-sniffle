@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Peace";
+  src: url(../public/medias/PyeongChang-Bold.woff) format("woff");
+}
+@font-face {
+  font-family: "PeaceB";
+  src: url(../public/medias/PyeongChangPeace-Bold.woff) format("woff");
+}
+@font-face {
+  font-family: "chosun";
+  src: url(../public/medias/ChosunNm.woff) format("woff");
+}
+@font-face {
+  font-family: "Neo";
+  src: url(../public/medias/NanumSquareNeoTTF-bRg.woff) format("woff");
+}
+@font-face {
+  font-family: "Neo2";
+  src: url(../public/medias/NanumSquareNeoTTF-dEb.woff) format("woff");
+}
+
+@font-face {
+  font-family: "star";
+  src: url(../public/medias/PyeongChangPeace-Light.woff) format("woff");
+}

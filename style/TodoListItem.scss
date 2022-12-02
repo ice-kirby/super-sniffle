@@ -1,0 +1,40 @@
+.TodoListItem {
+  padding: 10px;
+  display: flex;
+  line-height: 29px;
+  background-color: white;
+  font-family: "star";
+  justify-content: space-between;
+  font-size: 17px;
+
+  &:nth-child(odd) {
+    background-color: aquamarine;
+  }
+}
+
+.todo {
+  display: flex;
+  line-height: 29px;
+
+  .checkbox {
+    width: 1.3rem;
+    height: 1.3rem;
+
+    &:checked + .text,
+    &:checked + .date {
+      color: red;
+      text-decoration: line-through;
+    }
+  }
+}
+
+.remove {
+  color: gray;
+  font-size: 1.3rem;
+  cursor: pointer;
+  padding: 3px 0 0 0;
+
+  &:hover {
+    color: red;
+  }
+}
