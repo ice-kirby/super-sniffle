@@ -1,25 +1,28 @@
 @font-face {
-  font-family: "Peace";
-  src: url(../public/medias/PyeongChang-Bold.woff) format("woff");
+  font-family: "PeaceR";
+  src: url(../public/medias/PyeongChang-Regular.woff) format("woff");
 }
 @font-face {
-  font-family: "PeaceB";
-  src: url(../public/medias/PyeongChangPeace-Bold.woff) format("woff");
-}
-@font-face {
-  font-family: "chosun";
-  src: url(../public/medias/ChosunNm.woff) format("woff");
-}
-@font-face {
-  font-family: "Neo";
+  font-family: "NanumB";
   src: url(../public/medias/NanumSquareNeoTTF-bRg.woff) format("woff");
 }
-@font-face {
-  font-family: "Neo2";
-  src: url(../public/medias/NanumSquareNeoTTF-dEb.woff) format("woff");
+
+:root {
+  /* 레드 */
+  --red-one: #f2d8d4;
+  --red-two: #df5d58;
+  --red-the: #bc4a49;
+  --red-fou: #ff0004;
+
+  /* 그린 */
+  --gre-one: #e8fdb6;
+  --gre-two: #72c554;
+  --gre-the: #bacf90;
+  --gre-fou: #77a369;
+  --gre-fiv: #677b5f;
 }
 
-@font-face {
-  font-family: "star";
-  src: url(../public/medias/PyeongChangPeace-Light.woff) format("woff");
+.App {
+  text-align: center;
+  font-family: "NanumB";
 }
